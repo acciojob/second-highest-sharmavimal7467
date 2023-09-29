@@ -29,7 +29,7 @@
 			let smx = Number. MIN_VALUE;
 			let smind = -1;
 			for(let i = 0;i<arr.length;i++){
-				if(arr[i]>smx && i!=sind){
+				if(arr[i]>smx && (i!=mind || arr[i]!=mx)){
 					smx=arr[i];
 					smind = i;
 				}
